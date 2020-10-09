@@ -20,7 +20,7 @@ void setup()
       total+=tony[index].value;
       }
     }
-    textSize(20);
+   textSize(20);
     text(total,150,270);
     text("Total: ",90,270);
   }
@@ -41,9 +41,9 @@ void setup()
       }
       void roll()
       {
-         value=(int)(Math.random()*6)+1; 
+         value=(int)(Math.random()6)+1; 
       }
-
+[1:10 PM]
 void show()
       {
           fill(0,255,0);
